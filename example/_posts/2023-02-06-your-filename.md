@@ -1,10 +1,3 @@
-{:.lead}
-
-[Modernized](# 추상화(Abstraction) - 핵심적인 코드만 보여주기) [design](# 캡슐화(encapsulation) - 데이터 보호), [big headlines](# 상속(inherutance) - 코드 재사용), big new features: [Built-In Search](# 다형성(polymorphism) - 객체 변경 용이) is Hydejack 9.
-
-- Table of Contents
-{:toc .large-only}
-
 
 ## oop란?
 - 객체지향 프로그래밍
@@ -15,7 +8,7 @@
 
 ##  oop의 네 가지 특징
 
-# 추상화(Abstraction) - 핵심적인 코드만 보여주기
+## 추상화(Abstraction) - 핵심적인 코드만 보여주기
 불필요한 부분을 숨긴다.
 인터페이스와 구현을 분리한다.
 
@@ -39,7 +32,7 @@ discountPolicy.discount(member, 10000);
 하지만 실행클래스에서는 RateDiscountPolicy 객체를 DiscountPolicy 타입으로 바꿔 사용하고 있기 때문에 RateDiscountPolicy의 구현부를 알지 못한다. 따라서 구현객체에 의존하지 않고 추상객체인 인터페이스에 의존함으로써 구현 코드를 숨긴다.
 
 
-# 캡슐화(encapsulation) - 데이터 보호
+## 캡슐화(encapsulation) - 데이터 보호
 데이터 캡슐화 : 필드와 메서드를 하나로 묶는 것
 은닉화 : 객체의 세부 내용이 외부에 드러나지 않아 외부에서 데이터를 직접 접근하는 것을 방지한다.
 public class Person{
@@ -65,7 +58,7 @@ Person이라는 클래스에 이름, 나이와 같은 속성을 묶어 캡슐화
 이 클래스의 이름, 나이는 접근제한자가 private이기 때문에 직접 바꿀 수 없으며 get, set 함수로만 접근할 수 있다.
 
 
-# 상속(inherutance) - 코드 재사용
+## 상속(inherutance) - 코드 재사용
 자식클래스가 부모클래스의 특징과 기능을 물려받는 것
 클래스를 상속 받아 수정하여 사용하기 때문에 중복 코드를 줄일 수 있다.
 부모클래스의 수정으로 모든 자식클래스들도 수정되는 효과
@@ -92,7 +85,7 @@ class Cat extends Animal {
 Cat 클래스는 Animal 클래스를 상속받았다. 따라서 모든 코드를 물려 받아 중복코드를 줄이고 수정하고 싶은 cry 메서드만 재정의하였다.
 
 
-# 다형성(polymorphism) - 객체 변경 용이
+## 다형성(polymorphism) - 객체 변경 용이
 어떤 변수, 메소드가 상황에 따라 다른 결과를 내는 것
 
 <다형성을 가능하게 하는 것들>
