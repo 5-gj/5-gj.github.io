@@ -1,3 +1,6 @@
+{:.lead}
+- Table of Contents
+{:toc .large-only}
 
 ## oop란?
 - 객체지향 프로그래밍
